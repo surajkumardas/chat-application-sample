@@ -1,0 +1,80 @@
+<html>
+<head>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<style >
+	.body
+	{
+		background-image: url(back2.jpg);
+		opacity : .9;
+	}
+		
+	.div
+	{
+			padding: 3%;
+			left: 200px;
+			top: 300px;
+			margin-top: 80px;
+			margin-left: 400px;
+			margin-bottom : 20px;
+			width: 40%;
+			height: 540px;
+			text-align: center;
+			align-items : flex-start;
+			background-color: #000033;
+			font-family : tahoma;
+			border-radius: 20px;
+	}
+
+	.jumbotron
+	{
+			border-radius: 20px;
+	}
+
+	
+	
+	</style>
+
+	<title> My Login Page </title>
+
+</head>
+<body class="body" >
+	
+<div class="div">
+	<div class = "jumbotron">
+	<img src="lglogo.jpg" height = "120px" width = "120px"> 
+
+	<br><br>
+
+	<form action="lo.php" method="POST">
+
+	<div class = "container-fluid">	
+
+	<div class="input-group input-group-lg">
+		<span class="input-group-addon" style="border:solid; color:#2980B9">USER-NAME</span>
+		<input type="text" class="form-control" placeholder="Enter the email address:  ">
+	</div>
+	
+	<br><br>
+	
+	<div class="input-group input-group-lg">
+		<span class="input-group-addon" style="border:solid; color:#2980B9">PASSWORD</span>
+		<input type="password" class="form-control" placeholder="Enter the password:  ">
+	</div>
+
+	</div>
+
+	<br><br>
+
+	<button class="btn  btn-lg btn-info" name="login">login</button>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<button class="btn  btn-lg btn-primary" name="forgot">forgot password</button>
+
+	</form>	
+
+	Not a Member? <a href = "sign.html"> Signup </a>
+	</div>
+</div>	
+</body>
+</html>
